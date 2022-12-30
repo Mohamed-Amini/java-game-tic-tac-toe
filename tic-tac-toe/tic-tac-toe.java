@@ -3,7 +3,7 @@ import java.awt.event.*;
 import java.util.*;
 import javax.swing.*;
 
-class TicTacToe implements ActionListener {
+class XO implements ActionListener {
 
     Random random = new Random();
     JFrame frame = new JFrame();
@@ -13,7 +13,7 @@ class TicTacToe implements ActionListener {
     JButton[] buttons = new JButton[9];
     boolean player1_turn;
 
-    TicTacToe() {
+    XO() {
 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(800, 800);
